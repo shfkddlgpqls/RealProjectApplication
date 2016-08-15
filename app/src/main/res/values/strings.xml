@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjectApplication</string>
+    <string name="car1">외형복원 수리 사례</string>
+    <string name="car2">외형복원 수리 사례</string>
+    <string name="car3">외형복원 수리 사례</string>
+    <string name="car4">외형복원 수리 사례</string>
+    <string name="car5">외형복원 수리 사례</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
