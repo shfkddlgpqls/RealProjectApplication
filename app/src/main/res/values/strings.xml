@@ -5,6 +5,8 @@
     <string name="car3">외형복원 수리 사례</string>
     <string name="car4">외형복원 수리 사례</string>
     <string name="car5">외형복원 수리 사례</string>
+    <string name="action_notice">알림</string>
+    <string name="action_menu">메뉴</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

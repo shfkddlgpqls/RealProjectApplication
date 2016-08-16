@@ -14,22 +14,36 @@
     <FrameLayout
         android:id="@+id/framelayou"
         android:layout_width="match_parent"
-        android:layout_height="25dp">
+        android:layout_height="30dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:title="" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:text="견적이요"
             android:textColor="#000000"
             android:textSize="22sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:id="@+id/image_notie"
+            android:src="@drawable/notice"
+            android:layout_gravity="left|center_vertical" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/image_menu"
+            android:src="@drawable/menu"
+            android:layout_gravity="right|center_vertical" />
     </FrameLayout>
 
 
@@ -37,10 +51,6 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/framelayou"
         android:src="@drawable/mainimgae" />
 
@@ -54,9 +64,11 @@
 
         <Button
             android:id="@+id/btn_basiccar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
             android:background="@color/buttonbackground"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
             android:drawablePadding="0dp"
             android:drawableTop="@drawable/basiccar"
             android:text="외형복원"
@@ -67,20 +79,22 @@
 
         <Button
             android:id="@+id/btn_oilcar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
             android:background="@color/buttonbackground"
             android:drawableTop="@drawable/oilcar"
             android:text="정비오일 교환등"
             android:textSize="11sp"
             android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/btn_basiccar"
-            android:layout_toEndOf="@+id/btn_basiccar" />
+            android:layout_centerHorizontal="true" />
 
         <Button
             android:id="@+id/btn_sunting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
             android:background="@color/buttonbackground"
             android:drawableTop="@drawable/suntingcar"
             android:text="블랙박스,내비
@@ -88,46 +102,48 @@
             android:textSize="11sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="31dp"
-            android:layout_marginEnd="31dp" />
+            android:layout_alignParentEnd="true" />
 
         <Button
             android:id="@+id/btn_tire"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
             android:drawableTop="@drawable/tirecar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@color/buttonbackground"
             android:text="타이어 구매"
             android:textSize="11sp"
-            android:layout_alignTop="@+id/btn_serach"
+            android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
         <Button
             android:id="@+id/btn_insurance"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="10dp"
             android:drawableTop="@drawable/insurance"
             android:background="@color/buttonbackground"
             android:text="보험가입"
             android:textSize="11sp"
-
-            android:layout_alignTop="@+id/btn_tire"
-            android:layout_toRightOf="@+id/btn_tire"
-            android:layout_toEndOf="@+id/btn_tire" />
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/btn_oilcar"
+            android:layout_alignStart="@+id/btn_oilcar" />
 
         <Button
             android:id="@+id/btn_serach"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="10dp"
             android:drawableTop="@drawable/serachcar"
             android:background="@color/buttonbackground"
+            android:layout_marginRight="20dp"
             android:text="자동차 관련 업체"
             android:textSize="11sp"
-            android:layout_below="@+id/btn_sunting"
-            android:layout_alignLeft="@+id/btn_sunting"
-            android:layout_alignStart="@+id/btn_sunting" />
+            android:layout_alignTop="@+id/btn_insurance"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -136,10 +152,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true">
     <android.support.v7.widget.RecyclerView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/recyclerView"
-        android:layout_centerHorizontal="true" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView" />
 
     </RelativeLayout>
 </RelativeLayout>

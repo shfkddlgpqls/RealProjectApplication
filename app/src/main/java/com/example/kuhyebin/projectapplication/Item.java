@@ -6,15 +6,14 @@ package com.example.kuhyebin.projectapplication;
 public class Item {
     int image;
     String title;
+    String detail;
 
-    int getImage(){
-        return this.image;
-    }
-    String getTitle(){
-        return this.title;
-    }
-    Item(int image, String title){
+
+    Item(String detail ,String title, int image){
         this.image = image;
         this.title = title;
+        this.detail = detail;
     }
+
+
 }
