@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Created by kuhyebin on 2016-08-14.
  */
-public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder>{
+public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     Context mcontext;
 
@@ -53,4 +53,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder>{
         return items.size();
     }
 
-    }
+
+
+}

@@ -21,7 +21,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NoticeActivity"
-            android:theme="@style/AppTheme.NoActionBarNotice"/>
+            android:theme="@style/AppTheme.NoActionBarNotice" />
+
+        <activity android:name=".AppearanceActivity"
+            android:theme="@style/AppTheme.NoActionBarAppearance"></activity>
     </application>
 
 </manifest>

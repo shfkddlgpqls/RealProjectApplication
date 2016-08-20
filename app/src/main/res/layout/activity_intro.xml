@@ -15,8 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/image_intro"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
         android:layout_gravity="center_vertical"
-        android:src="@drawable/intro"/>
+        android:src="@drawable/intro"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
