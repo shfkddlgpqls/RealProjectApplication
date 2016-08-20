@@ -669,8 +669,14 @@
                         android:textSize="14sp" />
                 </RelativeLayout>
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Layout"
+                    android:background="#000000"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="견적요청"/>
             </RelativeLayout>
 
         </RelativeLayout>
