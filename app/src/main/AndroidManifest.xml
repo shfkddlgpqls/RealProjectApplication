@@ -21,10 +21,18 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NoticeActivity"
-            android:theme="@style/AppTheme.NoActionBarNotice" />
-
-        <activity android:name=".AppearanceActivity"
-            android:theme="@style/AppTheme.NoActionBarAppearance"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppearanceActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OilActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BlackboxActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TireActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

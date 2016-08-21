@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.image_notie) ImageView noticeImageView;
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.btn_basiccar) Button appearance;
+    @BindView(R.id.btn_oilcar) Button oilcar;
+    @BindView(R.id.btn_sunting) Button sunting;
+    @BindView(R.id.btn_tire) Button tire;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,17 +40,36 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
 
         initData();
+
     }
     @OnClick(R.id.image_notie)
-    public void click(View v){
+    void onVoticeClick(View view){
         Intent intent = new Intent(MainActivity.this, NoticeActivity.class);
         startActivity(intent);
 
     }
 
     @OnClick(R.id.btn_basiccar)
-    public void click(){
+    void onBasicClick(View view){
         Intent intent = new Intent(MainActivity.this, AppearanceActivity.class);
+        startActivity(intent);
+
+    }
+    @OnClick(R.id.btn_oilcar)
+    void onOilClick(View view){
+        Intent intent = new Intent(MainActivity.this, OilActivity.class);
+        startActivity(intent);
+
+    }
+    @OnClick(R.id.btn_sunting)
+    void onBlackboxClick(View view){
+        Intent intent = new Intent(MainActivity.this, BlackboxActivity.class);
+        startActivity(intent);
+
+    }
+    @OnClick(R.id.btn_tire)
+    void onTireClick(View view){
+        Intent intent = new Intent(MainActivity.this, TireActivity.class);
         startActivity(intent);
 
     }

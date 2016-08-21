@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="외형복원 견적 요청"
+            android:text="블랙박스/네비/광택 썬팅 견적 요청"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -185,7 +185,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/relativeLayout3"
                 android:layout_centerHorizontal="true"
-               android:layout_marginBottom="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginTop="8dp">
 
                 <TextView
@@ -305,26 +305,6 @@
                         android:layout_marginLeft="10dp"
                         android:src="@drawable/car"></ImageView>
 
-                    <ImageView
-                        android:id="@+id/image_three"
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_alignLeft="@+id/relativeLayout3"
-                        android:layout_alignStart="@+id/relativeLayout3"
-                        android:layout_below="@+id/relativeLayout4"
-                        android:layout_marginLeft="10dp"
-                        android:src="@drawable/car"></ImageView>
-
-                    <ImageView
-                        android:id="@+id/image_four"
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_alignLeft="@+id/relativeLayout3"
-                        android:layout_alignStart="@+id/relativeLayout3"
-                        android:layout_below="@+id/relativeLayout4"
-                        android:layout_marginLeft="10dp"
-                        android:src="@drawable/car"></ImageView>
-
                 </TableRow>
 
                 <TableRow
@@ -340,7 +320,6 @@
                         android:text="차량 전체1"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textSize="12sp" />
-
                     <TextView
                         android:id="@+id/text_two"
                         android:layout_width="wrap_content"
@@ -348,125 +327,12 @@
                         android:layout_column="1"
                         android:layout_marginLeft="15dp"
                         android:gravity="center"
-                        android:text="사고 부위"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/text_three"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_marginLeft="15dp"
-                        android:gravity="center"
                         android:text="상세 확대"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textSize="12sp" />
 
-                    <TextView
-                        android:id="@+id/text_four"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="3"
-                        android:layout_marginLeft="15dp"
-                        android:gravity="center"
-                        android:text="사진 추가1"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow>
-
-                    <ImageView
-                        android:id="@+id/image_five"
-                        android:layout_width="50dp"
-                        android:layout_height="40dp"
-                        android:layout_alignLeft="@+id/relativeLayout3"
-                        android:layout_alignStart="@+id/relativeLayout3"
-                        android:layout_below="@+id/relativeLayout4"
-                        android:layout_marginTop="5dp"
-                        android:src="@drawable/car"></ImageView>
-
-                    <ImageView
-                        android:id="@+id/image_six"
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_alignLeft="@+id/relativeLayout3"
-                        android:layout_alignStart="@+id/relativeLayout3"
-                        android:layout_below="@+id/relativeLayout4"
-                        android:layout_marginLeft="15dp"
-                        android:src="@drawable/car"></ImageView>
-
-                    <ImageView
-                        android:id="@+id/image_seven"
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_alignLeft="@+id/relativeLayout3"
-                        android:layout_alignStart="@+id/relativeLayout3"
-                        android:layout_below="@+id/relativeLayout4"
-                        android:layout_marginLeft="15dp"
-                        android:src="@drawable/car"></ImageView>
-
-                    <ImageView
-                        android:id="@+id/image_eight"
-                        android:layout_width="60dp"
-                        android:layout_height="50dp"
-                        android:layout_alignLeft="@+id/relativeLayout3"
-                        android:layout_alignStart="@+id/relativeLayout3"
-                        android:layout_below="@+id/relativeLayout4"
-                        android:layout_marginLeft="15dp"
-                        android:src="@drawable/car"></ImageView>
-
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/text_five"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="0"
-                        android:layout_marginLeft="5dp"
-                        android:gravity="center"
-                        android:text="사진 추가2"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/text_six"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="1"
-                        android:layout_marginLeft="15dp"
-                        android:gravity="center"
-                        android:text="사진 추가3"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/text_seven"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_marginLeft="15dp"
-                        android:gravity="center"
-                        android:text="사진 추가4"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/text_eight"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="3"
-                        android:layout_marginLeft="15dp"
-                        android:gravity="center"
-                        android:text="사진 추가5"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textSize="12sp" />
-                </TableRow>
             </TableLayout>
 
             <RelativeLayout
@@ -487,38 +353,14 @@
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/text_carnumber"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/text_title_request"
-                    android:paddingTop="5dp"
-                    android:text="차대번호 "
-                    android:layout_marginLeft="3dp"
-                    android:textColor="#888888"
-                    android:textSize="14sp" />
-
-                <EditText
-                    android:id="@+id/edit_change"
-                    android:layout_width="277dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/text_carnumber"
-                    android:layout_alignTop="@+id/text_carnumber"
-                    android:layout_toRightOf="@+id/text_carnumber"
-                    android:background="@drawable/border"
-                    android:hint="부품교환이 필요한 경우 입력하세요."
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:textSize="14sp" />
-
                 <EditText
                     android:id="@+id/edit_request"
                     android:layout_width="330dp"
                     android:layout_height="80dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/text_carnumber"
-                   android:paddingTop="5dp"
+                    android:layout_below="@+id/text_title_request"
+                    android:paddingTop="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/border"
                     android:gravity="top"
@@ -649,21 +491,12 @@
                     android:textColor="#888888"
                     android:textSize="14sp" />
 
-                <CheckBox
-                    android:id="@+id/check_rentercar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/text_addrequest"
-                    android:paddingTop="5dp"
-                    android:text=" 렌터카 서비스"
-                    android:textColor="#888888"
-                    android:textSize="14sp" />
 
                 <CheckBox
                     android:id="@+id/check_pickup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/check_rentercar"
+                    android:layout_below="@+id/text_addrequest"
                     android:paddingTop="5dp"
                     android:text=" 픽업 서비스"
                     android:textColor="#888888"
@@ -689,17 +522,17 @@
                 </RelativeLayout>
             </RelativeLayout>
 
-                <Button
-                    android:layout_width="330dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_below="@id/Layout"
-                    android:background="#000000"
-                    android:textSize="16sp"
-                    android:gravity="center"
-                    android:textColor="#ffffff"
-                    android:text="견적요청"/>
-                
+            <Button
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/Layout"
+                android:background="#000000"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="견적요청"/>
+
 
         </LinearLayout>
     </ScrollView>
